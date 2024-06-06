@@ -1,0 +1,89 @@
+ /* Reset default margin and padding */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set a background color for the entire page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        /* Main navigation bar */
+        .main-nav {
+            background-color: #ff5f20;
+            color: #fff;
+            padding: 10px;
+        }
+        .main-nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .main-nav li {
+            margin-right: 20px;
+        }
+        .main-nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Banner section */
+        .banner {
+            background-image: url('images/banner3.jpg');
+            background-size: cover;
+            color: #ff0000;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .banner h1 {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        .banner p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        /* Event listings */
+        .event-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .event {
+    background-image: url('images/banner.jpg'); /* Apply the banner image as the background */
+    background-size: cover; /* Cover the entire event div */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    color: #2417df; /* Change text color for better visibility */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.event1 {
+    background-image: url('images/banner.jpg'); /* Apply the banner image as the background */
+    background-size: cover; /* Cover the entire event div */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    color: #000000; /* Change text color for better visibility */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+        .event h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .event p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
